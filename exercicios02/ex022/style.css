@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    display: inline-block;
+    background-color: aquamarine;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px; /*altura */
+    width: 200px; /*largura */
+}
+div:hover > p {
+    display: block;
+    color: white;
+    background-color: red;
+}
+div:hover {
+    color: blue;
+    background-color: red;
+}
+
+div > p {
+    display: none;
+}

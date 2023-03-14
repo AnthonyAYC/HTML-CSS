@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronauta</title>
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+            
+        }
+        .background{
+            
+            margin: -8px;
+            position: relative;
+        }
+        div.background > div {
+            
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto; /* centraliza a imagem sobreposta */
+            max-width: 40%; /* define a largura máxima da imagem que será sobreposta */
+            max-height: 40%;
+            
+            
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="background">
+        <img src="midia/espaco.jpg" alt="">
+        <div>
+            <img src="midia/astronauta.png" alt="">
+        </div>
+    </div>
+
+
+</body>
+</html>

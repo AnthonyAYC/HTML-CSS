@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /*
+        #  = id
+        .  = class
+        :  = pseudo-class
+        :: = pseuido-element
+        >  = children
+        */
+
+
+
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        a:active {
+            color: darkblue;
+        }
+        a::before {
+            content: "→	" ;
+        }
+        a::after {
+            content: " ←" ;
+        }
+
+        .special {
+            background-color: rgba(70, 17, 17, 0.466);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.novaragnarok.com/wiki/The_Modern_Day_Imperial_Guard#Shield_Build:_The_Way_of_Shield_Hero_(General_Offensive_Shield_Skills(Earth_Drive/Shield_Press/Shield_Shooting)" target="_blank" class="special">Novaro: Royal Guard</a></li>
+        <li><a href="https://www.novaragnarok.com/wiki/Play_Genetic_with_Alice" target="_blank">Novaro: Genetic</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Surpresa</a></li>
+    </ul>
+</body>
+</html>
